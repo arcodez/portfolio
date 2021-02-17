@@ -11,17 +11,15 @@ import Work from "../components/Work";
 function index() {
   return (
     <>
-    <Head>
-    <meta charSet="utf-8" />
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-          <meta name="description" content="HTML5 website template" />
-          <meta
-            name="keywords"
-            content="global, template, html, sass, jquery"
-          />
-          <meta name="author" content="Bucky Maler" />
-    </Head>
+      <Head>
+        <title>Abel Web Developer</title>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="HTML5 website template" />
+        <meta name="keywords" content="global, template, html, sass, jquery" />
+        <meta name="author" content="Bucky Maler" />
+      </Head>
       <div className="perspective effect-rotate-left">
         <div className="container">
           <div className="outer-nav--return" />
@@ -41,7 +39,6 @@ function index() {
         </div>
         <Nav2 />
       </div>
-
     </>
   );
 }
