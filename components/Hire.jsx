@@ -64,7 +64,7 @@ export default function Hire() {
                     <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z" />
                   </g>
                 </svg>
-                Motion Design
+                Seo
               </label>
             </span>
             <span className="options-b">

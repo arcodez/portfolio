@@ -14,10 +14,13 @@ export default function Contact() {
             </div>
             <ul className="modal--options">
               <li>
-                <a href="#0">Bēhance</a>
+                <a href="#0">Linkedin</a>
               </li>
               <li>
-                <a href="#0">dribbble</a>
+                <a href="#0">Facebook</a>
+              </li>
+              <li>
+                <a href="#0">Telegram</a>
               </li>
               <li>
                 <a href="mailto:ouremail@gmail.com">Contact Us</a>

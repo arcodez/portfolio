@@ -6,11 +6,11 @@ export default function Intro() {
       <div className="intro">
         <div className="intro--banner">
           <h1>
-            Your next
+            Abel
             <br />
-            interactive
+            Web
             <br />
-            experience
+            Web Developer
           </h1>
           <button className="cta">
             Hire Us
