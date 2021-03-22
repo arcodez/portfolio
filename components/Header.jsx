@@ -4,8 +4,12 @@ export default function Header() {
   return (
     <header className="header">
       <a className="header--logo" href="#0">
-        <img src="assets/img/logo.png" alt="Global" />
-        <p>Global</p>
+        <img
+          src="react-icon.svg"
+          alt="Global"
+          width="40"
+        />
+        <p>Abel</p>
       </a>
       <button className="header--cta cta">Hire Us</button>
       <div className="header--nav-toggle">

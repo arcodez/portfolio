@@ -8,7 +8,7 @@ export default function Intro() {
           <h1>
             Abel
             <br />
-            Web
+            Rodríguez
             <br />
             Web Developer
           </h1>

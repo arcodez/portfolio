@@ -4,7 +4,7 @@ export default function Work() {
   return (
     <li className="l-section section">
       <div className="work">
-        <h2>Selected work</h2>
+        <h2>My Projects</h2>
         <div className="work--lockup">
           <ul className="slider">
             <li className="slider--item slider--item-left">

@@ -19,6 +19,7 @@ function index() {
         <meta name="description" content="HTML5 website template" />
         <meta name="keywords" content="global, template, html, sass, jquery" />
         <meta name="author" content="Bucky Maler" />
+        <link rel="shortcut icon" href="react-icon.svg" type="image/x-icon"/>
       </Head>
       <div className="perspective effect-rotate-left">
         <div className="container">
