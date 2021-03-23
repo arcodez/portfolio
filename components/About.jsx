@@ -1,19 +1,21 @@
-import React from "react";
+import Typist from "react-typist"
 
 export default function About() {
   return (
     <li className="l-section section">
       <div className="about">
         <div className="about--banner">
-          <h2>
-            We
-            <br />
-            believe in
-            <br />
-            passionate
-            <br />
-            people
-          </h2>
+          <Typist>
+            <h2>
+              I Want
+              <br />
+              To Work
+              <br />
+              With ReactJs
+              <br />
+              Technologies
+            </h2>
+          </Typist>
           <a href="#0">
             Career
             <span>
@@ -34,17 +36,14 @@ export default function About() {
               </svg>
             </span>
           </a>
-          <img src="assets/img/about-visual.png" alt="About Us" />
+          <img src="assets/img/typescriptlang-icon.svg" alt="About Us" width="350"/>
         </div>
         <div className="about--options">
           <a href="#0">
-            <h3>Winners</h3>
           </a>
           <a href="#0">
-            <h3>Philosophy</h3>
           </a>
           <a href="#0">
-            <h3>History</h3>
           </a>
         </div>
       </div>

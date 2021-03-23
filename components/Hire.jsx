@@ -4,7 +4,7 @@ export default function Hire() {
   return (
     <li className="l-section section">
       <div className="hire">
-        <h2>You want us to do</h2>
+        <h2 style={{textTransform: 'capitalize'}}> What You want us to do?</h2>
         {/* checkout formspree.io for easy form setup */}
         <form className="work-request">
           <div className="work-request--options">

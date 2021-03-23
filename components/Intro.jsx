@@ -1,19 +1,21 @@
-import React from "react";
+import Typist from "react-typist"
 
 export default function Intro() {
   return (
     <li className="l-section section section--is-active">
       <div className="intro">
         <div className="intro--banner">
-          <h1>
-            Abel
-            <br />
-            Rodríguez
-            <br />
-            Web Developer
-          </h1>
+          <Typist>
+            <h1>
+              Abel
+              <br />
+              Web
+              <br />
+              Developer
+            </h1>
+          </Typist>
           <button className="cta">
-            Hire Us
+            Hire Me
             <svg
               version="1.1"
               id="Layer_1"
@@ -31,7 +33,8 @@ export default function Intro() {
             </svg>
             <span className="btn-background" />
           </button>
-          <img src="assets/img/introduction-visual.png" alt="Welcome" />
+          {/* <img src="assets/img/introduction-visual.png" alt="Welcome" /> */}
+          <img src="assets/img/nuclear.svg" width="350" className="rotate"/>
         </div>
         <div className="intro--options">
           <a href="#0">

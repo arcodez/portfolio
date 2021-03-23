@@ -6,6 +6,7 @@ class MyDocument extends Document {
       <Html lang="es">
         <Head>
           <link rel="stylesheet" href="/assets/css/main.css" />
+          <link rel="stylesheet" href="/assets/css/abel.css" />
         </Head>
         <body>
           <Main />
