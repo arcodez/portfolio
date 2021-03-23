@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    min-height: 100vh;
+    perspective: 1000px;
+    background-color: tomato;
+}
+.container{
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+}
+.card{
+    transform-style: preserve-3d;
+    background: linear-gradient(rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0.105));
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    min-height: 60vh;
+    width: 33%;
+    margin: 50px;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.466);
+    place-items: center;
+    display: grid;
+    transition: all 0.75s ease;
+}
+.card::after{
+    content: '';
+    position: absolute;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(76, 0, 130, 0.726), rgb(19, 0, 128));
+    clip-path: circle(30% at 10% 5%);
+}
+.title{
+    transition: all 0.75s ease-out;
+    font-family: 'Anton', sans-serif;
+    background: crimson;          
+    padding: 50px;
+    border-radius: 10px;
+}
+@keyframes animacion {
+    0%{ background: rgba(76, 0, 130, 0) ;}
+    100%{ background: rgb(76, 0, 130) ;}
+}
+
+.btn{
+    border-radius: 30px;
+   
+    background-color: indigo;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+}
+.contenido__video{
+background: #7DD174;
+overflow: hidden;
+position: fixed;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+z-index: -1;
+}
+video {
+object-fit: cover;
+width: 100vw;
+height: 100vh;
+top: 0;
+left: 0;
+}
