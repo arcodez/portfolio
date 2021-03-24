@@ -1069,6 +1069,7 @@ body {
   bottom: -90px;
   right: -12px;
   margin-bottom: 150px;
+  border-radius: 10px;
 }
 .about--options {
   text-align: center;
