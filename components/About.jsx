@@ -36,7 +36,7 @@ export default function About() {
               </svg>
             </span>
           </a>
-          <img src="assets/img/typescriptlang-icon.svg" alt="About Us" width="350"/>
+          <img src="assets/img/Typescript.jpg" alt="About Us" width="350"/>
         </div>
         <div className="about--options">
           <a href="#0">
