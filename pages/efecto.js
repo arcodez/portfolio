@@ -7,34 +7,34 @@ function efecto() {
     <Head>
     <link rel="stylesheet" href="efecto/style.css"/>
     </Head>
-     {/*  <div class="contenido__video">
+     {/*  <div className="contenido__video">
         <video src="video.mp4" autoplay loop muted>
           <source src="video.mp4" type="video/mp4" />
         </video>
       </div> */}
       <h1>DESARROLLO WEB</h1>
-      <div class="container">
-        <div class="card">
-          <div class="title">
+      <div className="container">
+        <div className="card">
+          <div className="title">
             <h1>FRONTEND </h1>
           </div>
-          <a href="" class="btn">
+          <a href="" className="btn">
             INTRO
           </a>
         </div>
-        <div class="card">
-          <div class="title">
+        <div className="card">
+          <div className="title">
             <h1>BACKEND </h1>
           </div>
-          <a href="" class="btn">
+          <a href="" className="btn">
             INTRO
           </a>
         </div>
-        <div class="card">
-          <div class="title">
+        <div className="card">
+          <div className="title">
             <h1>FULLSTACK </h1>
           </div>
-          <a href="" class="btn">
+          <a href="" className="btn">
             INTRO
           </a>
         </div>

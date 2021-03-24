@@ -1090,20 +1090,21 @@ body {
   width: 200px;
   height: 125px;
   text-decoration: none;
-  color: #fff;
+  color: rgb(228, 228, 228);
+  border-radius: 50%;
   /* border: 10px solid #0f33ff; */
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 .about--options > a:nth-child(1) {
-  background-image: url("../img/nodejs.svg");
+  background-image: url("../img/NodeJS.jpg");
 }
 .about--options > a:nth-child(2) {
-  background-image: url("https://cdn.iconscout.com/icon/free/png-256/mongodb-5-1175140.png");
+  background-image: url("../img/MongoDB.jpg");
 }
 .about--options > a:nth-child(3) {
-  background-image: url("../img/next-js.svg");
+  background-image: url("../img/NextJS.jpg");
 }
 .about--options > a:hover h3 {
   bottom: -50px;
