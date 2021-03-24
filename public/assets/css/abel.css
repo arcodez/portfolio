@@ -1,3 +1,4 @@
+/* Fondo General de la Pagina */
 .container {
   background-position: center;
   background-size: cover;
@@ -5,56 +6,33 @@
   background-image: url("https://images.unsplash.com/photo-1439792675105-701e6a4ab6f0?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NXx8fGVufDB8fHw%3D&w=1000&q=80");
 }
 
-a .button1 {
-  display: inline-block;
-  padding: 0.35em 1.2em;
-  border: 0.1em solid #ffffff;
-  margin: 0 0.3em 0.3em 0;
-  border-radius: 0.12em;
-  box-sizing: border-box;
-  text-decoration: none;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  color: #ffffff;
-  text-align: center;
-  transition: all 0.2s;
-}
-a.button1:hover {
-  color: #000000;
-  background-color: #ffffff;
-}
-@media all and (max-width: 30em) {
-   a.button1 {
-    display: block;
-    margin: 0.4em auto;
-  }
-}
-
+/* Caja Transparente en el Contact */
 .caja {
-    width: 100%;
-    height: 70%;
-    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
-    border-radius: 5px;
-    position: relative;
-    z-index: 1;
-    background: inherit;
-    overflow: hidden;
-  }
-  
-  .caja:before {
-    content: "";
-    position: absolute;
-    background: inherit;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
-    filter: blur(10px);
-    margin: -20px;
-  }
+  width: 100%;
+  height: 70%;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  background: inherit;
+  overflow: hidden;
+}
 
+.caja:before {
+  content: "";
+  position: absolute;
+  background: inherit;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, 0.5);
+  filter: blur(10px);
+  margin: -20px;
+}
+
+/* Efecto de Rotacion en el About */
 .rotate {
   animation: rotation 8s infinite linear;
 }
@@ -66,4 +44,30 @@ a.button1:hover {
   to {
     transform: rotate(359deg);
   }
+}
+
+.slider {
+  margin: auto 300px;
+}
+.slider--item-left img {
+  width: 200px;
+  height: 200px;
+}
+.slider--item-right img {
+  width: 200px;
+  height: 200px;
+}
+
+.slider--item-center img {
+  width: 300px;
+  height: 300px;
+}
+
+.slider--item img {
+  align-items: center;
+  /* position: relative; */
+  object-position: center;
+  object-fit: cover;
+  margin: auto 600px;
+  border-radius: 30px;
 }

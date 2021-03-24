@@ -17,7 +17,7 @@ function Nav1() {
           <span>Contact</span>
         </li>
         <li>
-          <span>Hire us</span>
+          <span>Hire Me</span>
         </li>
       </ul>
     </nav>
@@ -31,7 +31,7 @@ function Nav2() {
       <li>Works</li>
       <li>About</li>
       <li>Contact</li>
-      <li>Hire us</li>
+      <li>Hire Me</li>
     </ul>
   );
 }
