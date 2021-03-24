@@ -6,7 +6,32 @@ export default function Contact() {
     <li className="l-section section">
       <div className="contact">
         <div className="contact--lockup">
-        <div className="caja">Linkedin</div>
+          <div className="caja">
+            <h1 style={{ textAlign: "center", textTransform: "uppercase" }}>
+              Contact Me
+            </h1>
+            <div className="contact-icons">
+              <div>
+                <img src="assets/img/linkedin.svg" alt="Linkedin" />
+                <h2>Linkedin</h2>
+              </div>
+              <div>
+                <img src="assets/img/facebook.svg" alt="Facebook" />
+                <h2>Facebook</h2>
+              </div>
+              <div>
+                <img src="assets/img/telegram.svg" alt="Telegram" />
+                <h2>Telegram</h2>
+              </div>
+              <div>
+                <img src="assets/img/gmail.svg" alt="Gmail" />
+                <h2>Gmail</h2>
+              </div>
+            </div>
+            <div className="progress">
+              <div className="progress-value"></div>
+            </div>
+          </div>
           {/* <div className="modal">
             <div className="modal--information">
               <p>{about.shortDesc}</p>

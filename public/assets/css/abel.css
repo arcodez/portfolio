@@ -3,7 +3,8 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("https://images.unsplash.com/photo-1439792675105-701e6a4ab6f0?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NXx8fGVufDB8fHw%3D&w=1000&q=80");
+  /* background-image: url("https://images.unsplash.com/photo-1439792675105-701e6a4ab6f0?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NXx8fGVufDB8fHw%3D&w=1000&q=80"); */
+  background-image: url("../img/Fondo.jpg");
 }
 
 /* Caja Transparente en el Contact */
@@ -70,4 +71,47 @@
   object-fit: cover;
   margin: auto 600px;
   border-radius: 30px;
+}
+.caja-boton {
+  width: 20px;
+  height: 10px;
+}
+
+.contact-icons img {
+  width: 150px;
+}
+.contact-icons {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+
+.progress {
+  margin-left: 40px;
+  margin-right: 40px;
+  background: rgba(255,255,255,0.1);
+  justify-content: flex-start;
+  border-radius: 100px;
+  align-items: center;
+  position: relative;
+  padding: 0 5px;
+  display: flex;
+  height: 40px;
+  width: 80%;
+}
+
+.progress-value {
+  animation: load 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: #fff;
+  height: 30px;
+  width: 0;
+}
+
+@keyframes load {
+  0% { width: 0; }
+  100% { width: 68%; }
 }
