@@ -18,6 +18,9 @@
   background: inherit;
   overflow: hidden;
 }
+.caja-contenido {
+  height: 90%;
+}
 
 .caja:before {
   content: "";
@@ -76,22 +79,27 @@
   width: 20px;
   height: 10px;
 }
-
 .contact-icons img {
-  width: 150px;
+  width: 70px;
 }
+
 .contact-icons {
+  object-fit: contain;
   text-align: center;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 40px;
+  /* grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); */
+  /* grid-template-columns: repeat(4, 1fr); */
+  gap: 15px;
 }
-
-
+@media (min-width: 100px) {
+  .contact-icons { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 900px) {
+  .contact-icons { grid-template-columns: repeat(4, 1fr); }
+}
 .progress {
-  margin-left: 40px;
-  margin-right: 40px;
-  background: rgba(255,255,255,0.1);
+  margin: 40px 40px 40px 40px;
+  background: rgba(255, 255, 255, 0.1);
   justify-content: flex-start;
   border-radius: 100px;
   align-items: center;
@@ -99,7 +107,7 @@
   padding: 0 5px;
   display: flex;
   height: 40px;
-  width: 80%;
+  width: 90%;
 }
 
 .progress-value {
@@ -112,6 +120,10 @@
 }
 
 @keyframes load {
-  0% { width: 0; }
-  100% { width: 68%; }
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
 }

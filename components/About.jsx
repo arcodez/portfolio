@@ -1,21 +1,48 @@
-import Typist from "react-typist"
+import Typist from "react-typist";
+import { useState, useEffect, useRef } from "react";
 
+function useHover() {
+  // Reference to the element we're listen for events from
+  const ref = useRef();
+
+  // Hover state management
+  const [hovered, setHovered] = useState(false);
+
+  // Event handlers
+  const enter = () => setHovered(true);
+  const leave = () => setHovered(false);
+
+  // Simple effect, just bind and unbind the event handlers
+  useEffect(() => {
+    ref.current.addEventListener("mouseenter", enter);
+    /*  ref.current.addEventListener("mouseleave", leave); */
+    return () => {
+      ref.current.removeEventListener("mouseenter", enter);
+      ref.current.removeEventListener("mouseleave", leave);
+    };
+  }, [ref]);
+
+  return [ref, hovered];
+}
 export default function About() {
+  const [ref, hovered] = useHover();
   return (
-    <li className="l-section section">
+    <li className="l-section section" ref={ref}>
       <div className="about">
         <div className="about--banner">
-          <Typist>
-            <h2>
-              I Want
-              <br />
-              To Work
-              <br />
-              With ReactJs
-              <br />
-              Technologies
-            </h2>
-          </Typist>
+          {hovered && (
+            <Typist>
+              <h2>
+                I Want
+                <br />
+                To Work
+                <br />
+                With ReactJs
+                <br />
+                Technologies
+              </h2>
+            </Typist>
+          )}
           <a href="#0">
             Career
             <span>
@@ -36,15 +63,12 @@ export default function About() {
               </svg>
             </span>
           </a>
-          <img src="assets/img/Typescript.jpg" alt="About Us" width="350"/>
+          <img src="assets/img/Typescript.jpg" alt="About Us" width="350" />
         </div>
         <div className="about--options">
-          <a href="#0">
-          </a>
-          <a href="#0">
-          </a>
-          <a href="#0">
-          </a>
+          <a href="#0"></a>
+          <a href="#0"></a>
+          <a href="#0"></a>
         </div>
       </div>
     </li>
