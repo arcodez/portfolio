@@ -44,10 +44,7 @@ export default function Intro() {
             </p>
           </a>
           <a href="#0">
-            <h3>Fantasy interactive</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.
-            </p>
+            <audio src="https://jr-02.github.io/Algebra_Discreta/multimedia/Tranquillity - Chill Lofi Hip Hop Beat (FREE FOR PROFIT USE).mp3" controls></audio>
           </a>
           <a href="#0">
             <h3>Paul &amp; shark</h3>
