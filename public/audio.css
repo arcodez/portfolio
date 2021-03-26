@@ -1,0 +1,20 @@
+body {
+    background: #333;
+    color: white;
+    text-align: center;
+    font-family: sans;
+}
+h1 {
+    position: fixed;
+}
+.div {
+    display: flex;
+}
+.div span {
+    background: red;
+    display: block;
+    margin: 1px;
+    width: 2px;
+    flex: auto;
+    justify-content: center;
+}

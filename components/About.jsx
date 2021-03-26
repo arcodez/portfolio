@@ -43,8 +43,8 @@ export default function About() {
               </h2>
             </Typist>
           )}
-          <a href="#0">
-            Career
+          <a href="https://github.com/arcodez?tab=repositories">
+            Projects
             <span>
               <svg
                 version="1.1"

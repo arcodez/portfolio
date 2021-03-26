@@ -16,7 +16,9 @@ export default function Work() {
   return (
     <li className="l-section section">
       <div className="work">
-        <h2>My Projects</h2>
+        <a href="https://github.com/arcodez?tab=repositories">
+          <h2>My Projects</h2>
+        </a>
         <div className="work--lockup">
           <ul className="slider">
             <li className="slider--item slider--item-right">

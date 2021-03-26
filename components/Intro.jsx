@@ -1,4 +1,4 @@
-import Typist from "react-typist"
+import Typist from "react-typist";
 
 export default function Intro() {
   return (
@@ -34,7 +34,7 @@ export default function Intro() {
             <span className="btn-background" />
           </button>
           {/* <img src="assets/img/introduction-visual.png" alt="Welcome" /> */}
-          <img src="assets/img/nuclear.svg" width="350" className="rotate"/>
+          <img src="assets/img/nuclear.svg" width="350" className="rotate" />
         </div>
         <div className="intro--options">
           <a href="#0">
@@ -43,8 +43,14 @@ export default function Intro() {
               Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.
             </p>
           </a>
-          <a href="#0">
-            <audio src="https://jr-02.github.io/Algebra_Discreta/multimedia/Tranquillity - Chill Lofi Hip Hop Beat (FREE FOR PROFIT USE).mp3" controls></audio>
+          <a href="">
+            <h3>Musica</h3>
+            <br />
+            <audio
+              autoplay
+              src="https://jr-02.github.io/Algebra_Discreta/multimedia/Tranquillity - Chill Lofi Hip Hop Beat (FREE FOR PROFIT USE).mp3"
+              controls
+            ></audio>
           </a>
           <a href="#0">
             <h3>Paul &amp; shark</h3>

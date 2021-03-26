@@ -80,7 +80,7 @@
   height: 10px;
 }
 .contact-icons img {
-  width: 70px;
+  width: 50px;
 }
 
 .contact-icons {
@@ -126,4 +126,9 @@
   100% {
     width: 100%;
   }
+}
+
+/* Estilos Globales */
+.perspective {
+  font-family: 'Cinzel', serif;
 }
