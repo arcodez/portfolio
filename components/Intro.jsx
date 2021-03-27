@@ -47,7 +47,7 @@ export default function Intro() {
             <h3>Musica</h3>
             <br />
             <audio
-              autoplay
+              autoPlay
               src="https://jr-02.github.io/Algebra_Discreta/multimedia/Tranquillity - Chill Lofi Hip Hop Beat (FREE FOR PROFIT USE).mp3"
               controls
             ></audio>

@@ -26,9 +26,9 @@ export default function Hire() {
                     <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z" />
                   </g>
                 </svg>
-                App Design
+                React App
               </label>
-              <input id="opt-2" type="checkbox" defaultValue="graphic design" />
+              <input id="opt-2" type="checkbox" defaultValue="React App" />
               <label htmlFor="opt-2">
                 <svg
                   version="1.1"
@@ -45,9 +45,9 @@ export default function Hire() {
                     <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z" />
                   </g>
                 </svg>
-                Graphic Design
+                NextJs App
               </label>
-              <input id="opt-3" type="checkbox" defaultValue="motion design" />
+              <input id="opt-3" type="checkbox" defaultValue="Nextjs App" />
               <label htmlFor="opt-3">
                 <svg
                   version="1.1"
@@ -68,7 +68,7 @@ export default function Hire() {
               </label>
             </span>
             <span className="options-b">
-              <input id="opt-4" type="checkbox" defaultValue="ux design" />
+              <input id="opt-4" type="checkbox" defaultValue="Seo" />
               <label htmlFor="opt-4">
                 <svg
                   version="1.1"
@@ -85,9 +85,9 @@ export default function Hire() {
                     <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z" />
                   </g>
                 </svg>
-                UX Design
+                React Template
               </label>
-              <input id="opt-5" type="checkbox" defaultValue="webdesign" />
+              <input id="opt-5" type="checkbox" defaultValue="React Template" />
               <label htmlFor="opt-5">
                 <svg
                   version="1.1"
@@ -104,9 +104,9 @@ export default function Hire() {
                     <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z" />
                   </g>
                 </svg>
-                Webdesign
+                Single Web
               </label>
-              <input id="opt-6" type="checkbox" defaultValue="marketing" />
+              <input id="opt-6" type="checkbox" defaultValue="Single Web" />
               <label htmlFor="opt-6">
                 <svg
                   version="1.1"
