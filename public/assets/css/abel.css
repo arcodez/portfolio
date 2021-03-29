@@ -67,13 +67,13 @@
   height: 200px;
 }
 
-.slider .slider--item .icon-works img {
+.slider .slider--item .icon-works a img {
   -webkit-filter: invert(100%);
   filter: invert(100%);
   width: 50px;
-  margin: 15px;
+  /* Arriba | Derecha | Abajo | Izquierda */
+  margin: 5px 15px 0 15px;
 }
-
 .slider--item .description img {
   align-items: center;
   /* position: relative; */
