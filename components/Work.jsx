@@ -22,43 +22,58 @@ export default function Work() {
         <div className="work--lockup">
           <ul className="slider">
             <li className="slider--item slider--item-right">
-              <a href="#0">
-                <img
-                  src="https://image.freepik.com/free-vector/full-supermarket-shopping-cart-shop-trolley-with-food-grocery-store-icon_53562-8227.jpg"
-                  alt="Alex Nowak"
-                />
-                <p className="slider--item-title">Familiar Shop</p>
-                <p className="slider--item-description">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit sed
-                  do.
-                </p>
-              </a>
+              <div className="description">
+                <a href="#0">
+                  <img
+                    src="https://image.freepik.com/free-vector/full-supermarket-shopping-cart-shop-trolley-with-food-grocery-store-icon_53562-8227.jpg"
+                    alt="Alex Nowak"
+                  />
+                </a>
+              </div>
+              <div className="icon-works">
+                <img src="assets/img/github.svg" alt="Github" />
+                <img src="assets/img/live-streaming.svg" alt="Live" />
+              </div>
+              <p className="slider--item-title">Familiar Shop</p>
+              <p className="slider--item-description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.
+              </p>
             </li>
             <li className="slider--item slider--item-center">
-              <a href="#0">
-                <img
-                  src="https://media.istockphoto.com/videos/animation-shopping-cart-icon-with-counter-0100-on-gray-background-video-id1190587036?s=640x640"
-                  alt="Shoping Car"
-                />
-                <p className="slider--item-title">Shoping Car Vanilla JS</p>
-                <p className="slider--item-description">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit sed
-                  do.
-                </p>
-              </a>
+              <div className="description">
+                <a href="#0">
+                  <img
+                    src="https://media.istockphoto.com/videos/animation-shopping-cart-icon-with-counter-0100-on-gray-background-video-id1190587036?s=640x640"
+                    alt="Shoping Car"
+                  />
+                </a>
+              </div>
+              <div className="icon-works">
+                <img src="assets/img/github.svg" alt="Github" />
+                <img src="assets/img/live-streaming.svg" alt="Live" />
+              </div>
+              <p className="slider--item-title">Shoping Car Vanilla JS</p>
+              <p className="slider--item-description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.
+              </p>
             </li>
             <li className="slider--item slider--item-left">
-              <a href="#0">
-                <img
-                  src="https://i.pinimg.com/originals/d0/fc/8a/d0fc8a804468e196fae2a7207b435281.jpg"
-                  alt=""
-                />
-                <p className="slider--item-title">Music Store</p>
-                <p className="slider--item-description">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit sed
-                  do.
-                </p>
-              </a>
+              <div className="description">
+                <a href="#0">
+                  <img
+                    src="https://i.pinimg.com/originals/d0/fc/8a/d0fc8a804468e196fae2a7207b435281.jpg"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="icon-works">
+                <img src="assets/img/github.svg" alt="Github" />
+                <img src="assets/img/live-streaming.svg" alt="Live" />
+              </div>
+              <p className="slider--item-title">Music Store</p>
+              <p className="slider--item-description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.
+              </p>
             </li>
           </ul>
           <div className="slider--next">

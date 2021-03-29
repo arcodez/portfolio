@@ -53,21 +53,28 @@
 .slider {
   margin: auto 300px;
 }
-.slider--item-left img {
-  width: 200px;
-  height: 200px;
+.slider--item-left .description img {
+  width: 150px;
+  height: 150px;
 }
-.slider--item-right img {
+.slider--item-right .description img {
+  width: 150px;
+  height: 150px;
+}
+
+.slider--item-center .description img {
   width: 200px;
   height: 200px;
 }
 
-.slider--item-center img {
-  width: 300px;
-  height: 300px;
+.slider .slider--item .icon-works img {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+  width: 50px;
+  margin: 15px;
 }
 
-.slider--item img {
+.slider--item .description img {
   align-items: center;
   /* position: relative; */
   object-position: center;
@@ -92,10 +99,14 @@
   gap: 15px;
 }
 @media (min-width: 100px) {
-  .contact-icons { grid-template-columns: repeat(2, 1fr); }
+  .contact-icons {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 @media (min-width: 900px) {
-  .contact-icons { grid-template-columns: repeat(4, 1fr); }
+  .contact-icons {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 .progress {
   margin: 40px 40px 40px 40px;
@@ -130,5 +141,5 @@
 
 /* Estilos Globales */
 .perspective {
-  font-family: 'Cinzel', serif;
+  font-family: "Cinzel", serif;
 }
