@@ -1,6 +1,7 @@
 import Typist from "react-typist";
 import { useState, useEffect, useRef } from "react";
 
+
 function useHover() {
   // Reference to the element we're listen for events from
   const ref = useRef();

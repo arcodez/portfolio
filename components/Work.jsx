@@ -50,7 +50,6 @@ export default function Work() {
               </div>
               <div className="icon-works">
                 <a href="https://github.com/arcodez/musicstore">
-                  <p>Algo</p>
                 </a>
                 <a href="https://github.com/arcodez/musicstore">
                   <img src="assets/img/github.svg" alt="Github" />
