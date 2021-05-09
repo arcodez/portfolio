@@ -3,12 +3,7 @@ import { useRouter } from "next/router";
 
 function index() {
   const router = useRouter();
-  useEffect(() => {
-    if (router.pathname === "/donation") {
-      //Implementar Layout de Donation
-      alert("Es verdadero")
-    }
-  }, []);
+  
   return (
     <>
      <div id="smart-button-container">
