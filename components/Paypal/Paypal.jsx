@@ -119,7 +119,7 @@ export default function App() {
         }
         .opciones {
           margin: 25px;
-          width:85%;
+          width:63%;
         }
         .rotate {
           animation: rotation 8s infinite linear;
@@ -136,16 +136,13 @@ export default function App() {
         .app {
           aling-items: center;
           width: 90%;
-          heigth: 90%;
           margin: auto auto 40px;
+          heigth: 90%;
           overflow: hidden;
         }
         .wrapper {
-          margin: auto;
-          width: 90%;
-          heigth: 90%;
           background-color: lightgray;
-          padding: 100px;
+          padding: 20px;
           border-radius: 10px;
         }
 
