@@ -83,7 +83,7 @@ export default function App() {
                   <h2>Otro Monto</h2>
                   <input
                     type="text"
-                    style={{width: '100%'}}
+                    style={{ width: "100%" }}
                     className="texto"
                     onChange={handleChange}
                     value={price}
@@ -91,10 +91,19 @@ export default function App() {
                 </>
               )}
             </div>
+
             <PayPalButton
               createOrder={(data, actions) => createOrder(data, actions)}
               onApprove={(data, actions) => onApprove(data, actions)}
             />
+            <div className="opciones">
+              <a href="https://portfolio.arcodez.vercel.app" target="_blank" className="myButton">
+                PortFolio Arcodez
+              </a>
+              <a href="https://github.com/arcodez" target="_blank" className="myButton">
+                GitHub Arcodez
+              </a>
+            </div>
           </div>
         </center>
       </div>
@@ -113,13 +122,13 @@ export default function App() {
             #373b44
           ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         }
-        .texto{
+        .texto {
           font-size: 20px;
-          padding:13px;
+          padding: 13px;
         }
         .opciones {
           margin: 25px;
-          width:63%;
+          width: 63%;
         }
         .rotate {
           animation: rotation 8s infinite linear;
@@ -202,6 +211,32 @@ export default function App() {
           height: 0;
           pointer-events: none;
           user-select: none;
+        }
+
+        .myButton {
+          margin: 5px;
+          width: 100%;
+          box-shadow: 0px 0px 0px 2px #42588f;
+          background: linear-gradient(to bottom, #7892c2 5%, #0f7bff 100%);
+          background-color: #7892c2;
+          border-radius: 10px;
+          border: 1px solid #248267;
+          display: inline-block;
+          cursor: pointer;
+          color: #ffffff;
+          font-family: Arial;
+          font-size: 19px;
+          padding: 12px 37px;
+          text-decoration: none;
+          text-shadow: 0px 1px 0px #3e69d6;
+        }
+        .myButton:hover {
+          background: linear-gradient(to bottom, #0f7bff 5%, #7892c2 100%);
+          background-color: #0f7bff;
+        }
+        .myButton:active {
+          position: relative;
+          top: 1px;
         }
       `}</style>
     </>
