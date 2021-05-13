@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import ReactDOM from "react-dom";
+import Router from "next/router";
 
 const PayPalButton = window.paypal.Buttons.driver("react", { React, ReactDOM });
 
@@ -28,7 +29,8 @@ export default function App() {
   };
 
   const onApprove = (data, actions) => {
-    return actions.order.capture();
+    return actions.order.capture(Router.push('/donation/exito'));
+    
   };
 
   function handleChange(e) {
