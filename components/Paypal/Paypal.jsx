@@ -5,6 +5,7 @@ import Router from "next/router";
 const PayPalButton = window.paypal.Buttons.driver("react", { React, ReactDOM });
 
 export default function App() {
+ 
   const [price, setPrice] = useState(0);
   const [opcion, setOpcion] = useState(5);
 
@@ -29,7 +30,7 @@ export default function App() {
   };
 
   const onApprove = (data, actions) => {
-    return actions.order.capture(Router.push('/donation/exito'));
+    return actions.order.capture(handlePaySuccesfully());
     
   };
 
@@ -41,6 +42,9 @@ export default function App() {
   }
   function handleSubmit(e) {
     e.preventDefault();
+  }
+  function handlePaySuccesfully(){
+    Router.push('/donation/exito');
   }
   return (
     <>
