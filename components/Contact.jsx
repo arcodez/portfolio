@@ -39,20 +39,28 @@ function Contact() {
               </h1>
               <div className="contact-icons">
                 <div>
-                  <img src="assets/img/linkedin.png" alt="Linkedin" />
-                  <h2>Linkedin</h2>
+                  <a
+                    href="https://www.linkedin.com/in/abel-rodr%C3%ADguez-b14b30200/"
+                    target="_blank"
+                  >
+                    <img src="assets/img/linkedin.png" alt="Linkedin" />
+                    <h2>Linkedin</h2>
+                  </a>
                 </div>
                 <div>
-                  <img src="assets/img/facebook.svg" alt="Facebook" />
-                  <h2>Facebook</h2>
+                  <a href="https://t.me/arcodez" target="_blank">
+                    <img src="assets/img/telegram.svg" alt="Telegram" />
+                    <h2>Telegram</h2>
+                  </a>
                 </div>
                 <div>
-                  <img src="assets/img/telegram.svg" alt="Telegram" />
-                  <h2>Telegram</h2>
-                </div>
-                <div>
-                  <img src="assets/img/gmail.svg" alt="Gmail" />
-                  <h2>Gmail</h2>
+                  <a
+                    href="mailto:abeljesusrodriguez18@gmail.com"
+                    target="_blank"
+                  >
+                    <img src="assets/img/gmail.svg" alt="Gmail" />
+                    <h2>Gmail</h2>
+                  </a>
                 </div>
               </div>
               <div className="progress">
