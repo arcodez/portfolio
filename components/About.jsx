@@ -1,7 +1,6 @@
 import Typist from "react-typist";
 import { useState, useEffect, useRef } from "react";
 
-
 function useHover() {
   // Reference to the element we're listen for events from
   const ref = useRef();
@@ -31,19 +30,17 @@ export default function About() {
     <li className="l-section section" ref={ref}>
       <div className="about">
         <div className="about--banner">
-          {hovered && (
-            <Typist>
-              <h2>
-                I Want
-                <br />
-                To Work
-                <br />
-                With ReactJs
-                <br />
-                Technologies
-              </h2>
-            </Typist>
-          )}
+          <Typist>
+            <h2>
+              I Want
+              <br />
+              To Work
+              <br />
+              With ReactJs
+              <br />
+              Technologies
+            </h2>
+          </Typist>
           <a href="https://github.com/arcodez?tab=repositories">
             Projects
             <span>
