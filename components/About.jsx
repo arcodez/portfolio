@@ -64,9 +64,9 @@ export default function About() {
           <img src="assets/img/Typescript.jpg" alt="About Us" width="350" />
         </div>
         <div className="about--options">
-          <a href="#0"></a>
-          <a href="#0"></a>
-          <a href="#0"></a>
+          <a href="https://nodejs.org/es/"></a>
+          <a href="https://www.mongodb.com/es"></a>
+          <a href="https://nextjs.org/"></a>
         </div>
       </div>
     </li>

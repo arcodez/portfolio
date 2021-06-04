@@ -38,9 +38,10 @@ export default function Intro() {
         </div>
         <div className="intro--options">
           <a href="#0">
-            <h3>Metiew &amp; Smith</h3>
+            <h3>JS y Typescript</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.
+              Como mis prinipales lenguajes ya que son lenguajes multipardigmas
+              y me gustan mucho
             </p>
           </a>
           <a href="">
@@ -53,9 +54,9 @@ export default function Intro() {
             ></audio>
           </a>
           <a href="#0">
-            <h3>Paul &amp; shark</h3>
+            <h3>Frontend y Backend</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.
+              Soy un FullStack que usa Principalmente React Para el Frontend{" "}
             </p>
           </a>
         </div>
