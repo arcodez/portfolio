@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Hire() {
   return (
-    <li className="l-section section">
+    <li className="l-section section section--is-active">
       <div className="hire">
         <h2 style={{textTransform: 'capitalize'}}> What You want us to do?</h2>
         {/* checkout formspree.io for easy form setup */}

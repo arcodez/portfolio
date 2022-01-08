@@ -27,7 +27,7 @@ function useHover() {
 export default function About() {
   const [ref, hovered] = useHover();
   return (
-    <li className="l-section section" ref={ref}>
+    <div className="l-section section section--is-active" ref={ref}>
       <div className="about">
         <div className="about--banner">
           <Typist>
@@ -69,6 +69,6 @@ export default function About() {
           <a href="https://nextjs.org/"></a>
         </div>
       </div>
-    </li>
+    </div>
   );
 }

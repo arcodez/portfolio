@@ -1,20 +1,9 @@
 import Link from "next/link";
 
 export default function Work() {
-  {
-    /* <div className="slider--item-image">
-    <div className="imagen">
-      <img
-        src="https://radioinfinitagoya.com.ar/v1/wp-content/uploads/2020/06/compras-por-coronavirus.jpg"
-        alt="Victory"
-        width="191"
-        height="300"
-      />
-    </div>
-  </div>; */
-  }
+
   return (
-    <li className="l-section section">
+    <li className="l-section section section--is-active">
       <div className="work">
         <a href="https://github.com/arcodez?tab=repositories">
           <h2>My Projects</h2>

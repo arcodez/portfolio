@@ -13,38 +13,11 @@ function index() {
   return (
     <>
       <Layout1>
-        <Head> 
-          <title>Abel Web Developer</title>
-          <meta charSet="utf-8" />
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-          <meta name="description" content="HTML5 website template" />
-          <meta
-            name="keywords"
-            content="global, template, html, sass, jquery"
-          />
-          <meta name="author" content="Bucky Maler" />
-          <link rel="shortcut icon" href="react-icon.svg" type="image/x-icon" />
-        </Head>
-        <div className="perspective effect-rotate-left">
-          <div className="container">
-            <div className="outer-nav--return" />
-            <div id="viewport" className="l-viewport">
-              <div className="l-wrapper">
-                <Header />
-                <Nav1 />
-                <ul className="l-main-content main-content">
-                  <Intro />
-                  <Work />
-                  <About />
-                  <Contact />
-                  <Hire />
-                </ul>
-              </div>
-            </div>
-          </div>
-          <Nav2 />
-        </div>
+        <Intro />
+      {/*   <Work />
+        <About />
+        <Contact />
+        <Hire /> */}
       </Layout1>
     </>
   );

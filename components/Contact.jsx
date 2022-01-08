@@ -1,35 +1,10 @@
-import { useState, useEffect, useRef } from "react";
-import { about } from "./configs";
-
-function useHover() {
-  // Reference to the element we're listen for events from
-  const ref = useRef();
-
-  // Hover state management
-  const [hovered, setHovered] = useState(false);
-
-  // Event handlers
-  const enter = () => setHovered(true);
-  const leave = () => setHovered(false);
-
-  // Simple effect, just bind and unbind the event handlers
-  useEffect(() => {
-    ref.current.addEventListener("mouseenter", enter);
-    /*  ref.current.addEventListener("mouseleave", leave); */
-    return () => {
-      ref.current.removeEventListener("mouseenter", enter);
-      ref.current.removeEventListener("mouseleave", leave);
-    };
-  }, [ref]);
-
-  return [ref, hovered];
-}
+import useHover from "../hooks/useHover";
 
 function Contact() {
   const [ref, hovered] = useHover();
 
   return (
-    <li className="l-section section" ref={ref}>
+    <li className="l-section section section--is-active" ref={ref}>
       <div className="contact">
         <div className="contact--lockup">
           <div className="caja">

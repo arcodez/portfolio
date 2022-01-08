@@ -2,7 +2,7 @@ import Typist from "react-typist";
 
 export default function Intro() {
   return (
-    <li className="l-section section section--is-active">
+    <div className="l-section section section--is-active">
       <div className="intro">
         <div className="intro--banner">
           <Typist>
@@ -61,6 +61,6 @@ export default function Intro() {
           </a>
         </div>
       </div>
-    </li>
+    </div>
   );
 }
