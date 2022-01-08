@@ -13,7 +13,7 @@ function index() {
   return (
     <>
       <Layout1>
-        <Head>
+        <Head> 
           <title>Abel Web Developer</title>
           <meta charSet="utf-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
